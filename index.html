@@ -13,7 +13,7 @@
         <div class="header_temperature">
             <span class="header_temperature_label">T<sub>наруж.</span>
             <div class="header_temperature_output">
-                <span class="header_temperature_output_dinamic-txt">6.26</sub></span>
+                <span class="header_temperature_output_dynamic-txt">6.26</sub></span>
                 <span class="header_temperature_output_static-txt">C&deg;</span>
             </div>
         </div>
@@ -21,264 +21,651 @@
         <img src="img/header_icon.png" class="header_icon" width="82" height="82">
     </header>
     <div class="main-panel">
-        <div class="main-panel_pvu">
-            <div class="main-panel_pvu_anim-box">
-                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_pvu_anim-box_ventilation">
+        <div class="main-panel_wrap">
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
             </div>
-            <span class="main-panel_pvu_txt">П1</span>
-            <div class="main-panel_pvu_anim-box">
-                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_pvu_anim-box_ventilation">
+            <span class="main-panel_wrap_txt">П1</span>
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
             </div>
-            <span class="main-panel_pvu_txt">В1</span>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Р<sub class="sub-txt">П1</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">22.00</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">Гц</span>
+            <span class="main-panel_wrap_txt">В1</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">Р<sub class="sub-txt">П1</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.00</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">Гц</span>
                     </div>
                 </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Р<sub class="sub-txt">В1</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">20.00</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">Гц</span>
-                    </div>
-                </div>
-            </div>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">приток</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">19.72</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
-                    </div>
-                </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">помещ.</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">22.97</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">Р<sub class="sub-txt">В1</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">20.00</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">Гц</span>
                     </div>
                 </div>
             </div>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">под. вод</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">31.17</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">приток</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
                     </div>
                 </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">об. вод</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">26.06</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
-                    </div>
-                </div>
-            </div>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">Выт</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">12.45</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
-                    </div>
-                </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">Наруж</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">6.23</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">помещ.</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
                     </div>
                 </div>
             </div>
-            <div class="main-panel_pvu_column timer1">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Вкл ПВУ 1</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">7 &nbsp;:&nbsp; 0</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">под. вод</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">31.17</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
                     </div>
                 </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Выкл ПВУ 1</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">21 &nbsp;:&nbsp; 30</span>
-                    </div>
-                </div>
-            </div>
-            <div class="main-panel_pvu_column timer2">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Вкл ПВУ 1</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">22 &nbsp;:&nbsp; 0</span>
-                    </div>
-                </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Выкл ПВУ 1</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">7 &nbsp;:&nbsp; 0</span>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">об. вод</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">26.06</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
                     </div>
                 </div>
             </div>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Сезон:</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">Авто/Зима</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">Выт</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">12.45</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
                     </div>
                 </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Режим:</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">Работа</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main-panel_pvu">
-            <div class="main-panel_pvu_anim-box">
-                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_pvu_anim-box_ventilation">
-            </div>
-            <span class="main-panel_pvu_txt">П2</span>
-            <div class="main-panel_pvu_anim-box">
-                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_pvu_anim-box_ventilation">
-            </div>
-            <span class="main-panel_pvu_txt">В2</span>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Р<sub class="sub-txt">П1</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">22.00</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">Гц</span>
-                    </div>
-                </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Р<sub class="sub-txt">В1</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">20.00</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">Гц</span>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">Наруж</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">6.23</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
                     </div>
                 </div>
             </div>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">приток</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">19.72</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
+            <div class="main-panel_wrap_column timer1">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Вкл ПВУ 1</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">7</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">0</span>
                     </div>
                 </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">помещ.</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">22.97</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
-                    </div>
-                </div>
-            </div>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">под. вод</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">31.17</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
-                    </div>
-                </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">об. вод</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">26.06</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Выкл ПВУ 1</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">21</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">30</span>
                     </div>
                 </div>
             </div>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">Выт</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">12.45</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
+            <div class="main-panel_wrap_column timer2">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Вкл ПВУ 1</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">22</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">0</span>
                     </div>
                 </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">Наруж</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">6.23</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
-                    </div>
-                </div>
-            </div>
-            <div class="main-panel_pvu_column timer1">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Вкл ПВУ 1</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">7 &nbsp;:&nbsp; 0</span>
-                    </div>
-                </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Выкл ПВУ 1</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">21 &nbsp;:&nbsp; 30</span>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Выкл ПВУ 1</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">7</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">0</span>
                     </div>
                 </div>
             </div>
-            <div class="main-panel_pvu_column timer2">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Вкл ПВУ 1</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">22 &nbsp;:&nbsp; 0</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Сезон:</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_option-txt">Авто/Зима</span>
                     </div>
                 </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Выкл ПВУ 1</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">7 &nbsp;:&nbsp; 0</span>
-                    </div>
-                </div>
-            </div>
-            <div class="main-panel_pvu_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Сезон:</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">Авто/Зима</span>
-                    </div>
-                </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Режим:</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">Работа</span>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Режим:</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_option-txt">Работа</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-panel_pvu3">
-            <div class="main-panel_pvu_anim-box">
-                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_pvu_anim-box_ventilation">
+        <div class="main-panel_wrap">
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
             </div>
-            <span class="main-panel_pvu_txt">П3</span>
-            <div class="main-panel_pvu_anim-box">
-                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_pvu_anim-box_ventilation">
+            <span class="main-panel_wrap_txt">П2</span>
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
             </div>
-            <span class="main-panel_pvu_txt">В3</span>
-            <div class="main-panel_pvu_column main-panel_pvu3_column">
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">T<sub class="sub-txt">приток</sub></span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">19.72</span>
-                        <span class="main-panel_pvu_column_wrap_output_static-txt">C&deg;</span>
+            <span class="main-panel_wrap_txt">В2</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">Р<sub class="sub-txt">П1</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.00</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">Гц</span>
                     </div>
                 </div>
-                <div class="main-panel_pvu_column_wrap">
-                    <span class="main-panel_pvu_column_wrap_label">Режим:</span>
-                    <div class="main-panel_pvu_column_wrap_output">
-                        <span class="main-panel_pvu_column_wrap_output_dinamic-txt">Работа</span>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">Р<sub class="sub-txt">В1</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">20.00</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">Гц</span>
                     </div>
                 </div>
             </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">приток</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">помещ.</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">под. вод</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">31.17</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">об. вод</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">26.06</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">Выт</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">12.45</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">Наруж</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">6.23</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column timer1">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Вкл ПВУ 2</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">7</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">0</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Выкл ПВУ 2</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">21</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">30</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column timer2">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Вкл ПВУ 2</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">22</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">0</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Выкл ПВУ 2</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">7</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Сезон:</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_option-txt">Авто/Зима</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Режим:</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_option-txt">Работа</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_pvu3">
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <span class="main-panel_wrap_txt">П3</span>
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <span class="main-panel_wrap_txt">В3</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">приток</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Режим:</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">Работа</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_lavatory">
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <span class="main-panel_wrap_txt">В2.2</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Вкл В2.2</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">7</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">0</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Выкл В2.2</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">21</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">30</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_bakery">
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/fan_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <span class="main-panel_wrap_txt">В4</span>
+            <div class="main-panel_wrap_column_wrap_output">
+                <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+            </div>
+            <div class="main-panel_wrap_column main-panel_bakery_timer">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Вкл В4</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">7</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">0</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Выкл В4</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">21</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">:</span>
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_timer">30</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_debarkader">
+            <div class="main-panel_debarkader_animbox">
+                <img src="/img/debarkader_anim.gif" class="main-panel_debarkader_anim-box_anim" width="92" height="55">
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">помещ.</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">31.17</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">об. вод</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">26.06</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Сезон:</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_option-txt">Авто/Зима</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Режим:</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt main-panel_wrap_column_wrap_output_option-txt">Работа</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_volcanoes">
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/volcano_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Зона 1 кассы</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">&percnt;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">V1-V2</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/volcano_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Зона 2 овощи</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">&percnt;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">V3-V4</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_anim-box">
+                <img src="/img/volcano_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Зона 3 дебаркадер</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">&percnt;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">V5</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_server-room">
+            <div class="main-panel_wrap_column main-panel_server-room_column">
+                <img src="/img/server-room_anim.gif" width="75" height="25" class="main-panel_server-room_anim">
+                <span class="main-panel_wrap_column_wrap_label main-panel_server-room_column_label">K4</span>
+            </div>
+            <div class="main-panel_wrap_column main-panel_server-room_column">
+                <img src="/img/server-room_anim.gif" width="75" height="25" class="main-panel_server-room_anim">
+                <span class="main-panel_wrap_column_wrap_label main-panel_server-room_column_label">K5</span>
+            </div>
+            <div class="main-panel_wrap_column_wrap">
+                <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">сер.</sub></span>
+                <div class="main-panel_wrap_column_wrap_output">
+                    <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                    <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Канал К4</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt"></span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Канал К5</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column_wrap">
+                <span class="main-panel_wrap_column_wrap_small-label">Ротация</span>
+                <div class="main-panel_wrap_column_wrap_output">
+                    <span class="main-panel_wrap_column_wrap_output_dynamic-txt"></span>
+                    <span class="main-panel_wrap_column_wrap_output_static-txt">ч</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_cassettes">
+            <div class="main-panel_wrap_anim-box main-panel_cassettes_anim-box">
+                <img src="/img/cassette_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <span class="main-panel_wrap_txt main-panel_cassettes_txt">K1</span>
+            <div class="main-panel_wrap_column main-panel_cassettes_column">
+                <div class="main-panel_wrap_column_wrap main-panel_cassettes_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label main-panel_cassettes_column_wrap_label">T<sub class="sub-txt">пом.</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap  main-panel_cassettes_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label main-panel_cassettes_column_wrap_label">T<sub class="sub-txt">канал</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_anim-box main-panel_cassettes_anim-box">
+                <img src="/img/cassette_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <span class="main-panel_wrap_txt main-panel_cassettes_txt">K2</span>
+            <div class="main-panel_wrap_column main-panel_cassettes_column">
+                <div class="main-panel_wrap_column_wrap main-panel_cassettes_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label main-panel_cassettes_column_wrap_label">T<sub class="sub-txt">пом.</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap  main-panel_cassettes_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label main-panel_cassettes_column_wrap_label">T<sub class="sub-txt">канал</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_anim-box main-panel_cassettes_anim-box">
+                <img src="/img/cassette_anim.gif" width="54" height="53" class="main-panel_wrap_anim-box_ventilation">
+            </div>
+            <span class="main-panel_wrap_txt main-panel_cassettes_txt">K3</span>
+            <div class="main-panel_wrap_column main-panel_cassettes_column">
+                <div class="main-panel_wrap_column_wrap main-panel_cassettes_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label main-panel_cassettes_column_wrap_label">T<sub class="sub-txt">пом.</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap  main-panel_cassettes_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label main-panel_cassettes_column_wrap_label">T<sub class="sub-txt">канал</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_boiler-room">
+            <img src="/img/boiler_anim.gif" width="20" height="48" class="main-panel_boiler-room_boiler-anim">
+            <span class="main-panel_wrap_txt">Кот.1</span>
+            <img src="/img/boiler_anim.gif" width="20" height="48" class="main-panel_boiler-room_boiler-anim">
+            <span class="main-panel_wrap_txt">Кот.2</span>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">под. вод</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">T<sub class="sub-txt">об. вод.</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">22.97</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">C&deg;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">P<sub class="sub-txt">под. вод</sub></span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">19.72</span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">Pa</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Режим:</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">Работа</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_txt">H1</span>
+                    <img src="/img/pump_anim.gif" width="36" height="24" class="main-panel_boiler-room_pump-anim">
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_txt">H2</span>
+                    <img src="/img/pump_anim.gif" width="36" height="24" class="main-panel_boiler-room_pump-anim">
+                </div>
+            </div>
+            <div class="main-panel_wrap_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Ротация Котлов</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt"></span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">ч</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_small-label">Ротация Насосов</span>
+                    <div class="main-panel_wrap_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt"></span>
+                        <span class="main-panel_wrap_column_wrap_output_static-txt">ч</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_electricity">
+            <img src="/img/sample_anim.png" width="40" height="46" class="main-panel_electricity_anim">
+            <span class="main-panel_electricity_txt">Счетчики электричества</span>
+            <div class="main-panel_wrap_column main-panel_electricity_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">ВП1</span>
+                    <div class="main-panel_wrap_column_wrap_output main-panel_electricity_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">12345</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">ВП2</span>
+                    <div class="main-panel_wrap_column_wrap_output main-panel_electricity_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">25</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel_wrap_column main-panel_electricity_column">
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">РП1</span>
+                    <div class="main-panel_wrap_column_wrap_output main-panel_electricity_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">12345</span>
+                    </div>
+                </div>
+                <div class="main-panel_wrap_column_wrap">
+                    <span class="main-panel_wrap_column_wrap_label">РП2</span>
+                    <div class="main-panel_wrap_column_wrap_output main-panel_electricity_column_wrap_output">
+                        <span class="main-panel_wrap_column_wrap_output_dynamic-txt">25</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_water">
+            <img src="/img/sample_anim.png" width="40" height="46" class="main-panel_water_anim">
+            <span class="main-panel_water_txt">Счетчики воды</span>
+            <div class="main-panel_wrap_column_wrap">
+                <div class="main-panel_wrap_column_wrap_output main-panel_water_column_wrap_output">
+                    <span class="main-panel_wrap_column_wrap_output_dynamic-txt">12345</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel_wrap main-panel_ibp">
+            <img src="/img/sample_anim.png" width="40" height="46" class="main-panel_ibp_anim">
+            <span class="main-panel_ibp_txt">ИБП</span>
+        </div>
+        <div class="main-panel_wrap main-panel_log">
+            <img src="/img/sample_anim.png" width="32" height="37" class="main-panel_log_anim">
+            <span class="main-panel_log_txt">Журнал!</span>
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer_status">
+            <span class="footer_status_txt">Вы вошли как:</span>
+            <span class="footer_status_dynamic-txt">Антон</span>
+            <span class="footer_status_txt">Группа:</span>
+            <span class="footer_status_dynamic-txt">Администратор</span>
+            <span class="footer_status_txt">Ваш IP:</span>
+            <span class="footer_status_dynamic-txt">192.168.250.1</span>
+            <span class="footer_status_txt">Время входа:</span>
+            <span class="footer_status_dynamic-txt">24.03.2021 17:11:10</span>
+        </div>
+        <button class="footer_finish-btn">Завершение сессии</button>
+    </footer>
 </body>
 
 </html>

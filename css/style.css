@@ -56,7 +56,7 @@
           box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25), inset 0px 2px 4px #626262;
 }
 
-.header_temperature_output_dinamic-txt {
+.header_temperature_output_dynamic-txt {
   font-family: 'roboto', Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -90,9 +90,14 @@
 .main-panel {
   width: 1430px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.main-panel_pvu {
+.main-panel_wrap {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,7 +110,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0 18px 0 30px;
-  margin: 0 0 15px;
+  margin: 0 0 20px;
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
   background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
@@ -113,9 +118,9 @@
           box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
 }
 
-.main-panel_pvu:first-child::before {
+.main-panel_wrap:first-child::before {
   content: "ПВУ1 (Зал)";
-  top: -11px;
+  top: -13px;
   position: absolute;
   font-family: 'roboto', Arial, sans-serif;
   font-style: normal;
@@ -127,9 +132,9 @@
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-panel_pvu:nth-child(2)::before {
+.main-panel_wrap:nth-child(2)::before {
   content: "ПВУ2 (Тех. помещения)";
-  top: -11px;
+  top: -13px;
   position: absolute;
   font-family: 'roboto', Arial, sans-serif;
   font-style: normal;
@@ -141,12 +146,12 @@
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-panel_pvu_anim-box {
+.main-panel_wrap_anim-box {
   width: 54px;
   height: 54px;
 }
 
-.main-panel_pvu_txt {
+.main-panel_wrap_txt {
   font-family: 'roboto', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -157,7 +162,7 @@
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-panel_pvu_column {
+.main-panel_wrap_column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,9 +173,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 55px;
 }
 
-.main-panel_pvu_column_wrap {
+.main-panel_wrap_column_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,11 +188,11 @@
           align-items: center;
 }
 
-.main-panel_pvu_column_wrap:first-child {
+.main-panel_wrap_column_wrap:first-child {
   margin: 0 0 5px;
 }
 
-.main-panel_pvu_column_wrap_label {
+.main-panel_wrap_column_wrap_label {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
@@ -202,64 +208,67 @@
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-panel_pvu_column_wrap_output {
+.main-panel_wrap_column_wrap_small-label {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.005em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 5px 0 0;
+}
+
+.main-panel_wrap_column_wrap_output {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   min-width: 70px;
   height: 23px;
-  padding: 0 5px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
   background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
   -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25), inset 0px 2px 4px #626262;
           box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25), inset 0px 2px 4px #626262;
 }
 
-.main-panel_pvu_column_wrap_output_dinamic-txt {
+.main-panel_wrap_column_wrap_output_dynamic-txt {
   font-family: 'roboto', Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   color: #000000;
   padding: 4px 0 0;
+  margin: 0 auto;
 }
 
-.main-panel_pvu_column_wrap_output_static-txt {
+.main-panel_wrap_column_wrap_output_static-txt {
   font-family: 'roboto', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 20px;
   color: #000000;
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 5px 0 0;
+}
+
+.main-panel_wrap_column_wrap_output_timer {
+  text-align: center;
+  width: 15px;
+}
+
+.main-panel_wrap_column_wrap_output_option-txt {
+  text-align: center;
+  min-width: 90px;
 }
 
 .main-panel_pvu3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 58px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 18px 0 30px;
-  margin: 0 0 15px;
-  width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
-  background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
-  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
-  width: 400px;
+  width: 410px;
   position: relative;
+  margin-right: 13px;
+  padding: 0 6px 0 30px;
 }
 
 .main-panel_pvu3::before {
@@ -272,12 +281,332 @@
   letter-spacing: -0.02em;
   color: #000000;
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-  content: "ПВУЗ (ЦХМ)";
-  top: -11px;
+  content: "ПВУ3 (ЦХМ)";
+  top: -13px;
 }
 
-.main-panel_pvu3_column {
+.main-panel_lavatory {
+  width: 250px;
+  position: relative;
+  margin-right: 13px;
+  padding: 2px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-panel_lavatory::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Санузлы";
+  top: -13px;
+}
+
+.main-panel_bakery {
+  width: 300px;
+  position: relative;
+  padding: 2px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 13px;
+}
+
+.main-panel_bakery::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Пекарня";
+  top: -13px;
+}
+
+.main-panel_bakery_timer {
+  position: relative;
+}
+
+.main-panel_bakery_timer::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Таймер День";
+  top: -13px;
+  right: 5px;
+}
+
+.main-panel_debarkader {
+  width: 395px;
+  position: relative;
+  padding: 2px 18px 2px 2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-panel_debarkader::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Завеса дебаркадер";
+  top: -13px;
+}
+
+.main-panel_debarkader_anim-box {
+  width: 92px;
+  height: 55px;
+}
+
+.main-panel_volcanoes {
+  width: 717px;
+  margin-right: 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 13px 0 30px;
+}
+
+.main-panel_volcanoes::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Вулканы";
+  top: -13px;
+}
+
+.main-panel_server-room {
+  width: 700px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-panel_server-room::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Серверная";
+  top: -13px;
+  left: 100px;
+}
+
+.main-panel_server-room_column {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-panel_server-room_column_label {
+  -ms-flex-item-align: unset;
+      -ms-grid-row-align: unset;
+      align-self: unset;
+}
+
+.main-panel_cassettes {
+  width: 717px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 13px;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+
+.main-panel_cassettes_anim-box {
+  margin: 0 5px 0 0;
+}
+
+.main-panel_cassettes_anim-box:first-child::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Зона 1 овощи фрукты";
+  top: -13px;
+}
+
+.main-panel_cassettes_anim-box:nth-child(4)::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Зона 2 кассы";
+  top: -13px;
+}
+
+.main-panel_cassettes_anim-box:nth-child(7)::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Зона 3 кассы";
+  top: -13px;
+}
+
+.main-panel_cassettes_txt {
+  margin: 0 5px 0 0;
+}
+
+.main-panel_cassettes_column {
+  margin: 0 12px 0 0;
+}
+
+.main-panel_cassettes_column_wrap_label {
+  margin: 0 5px 0 0;
+}
+
+.main-panel_boiler-room {
+  width: 700px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 18px 0 10px;
+}
+
+.main-panel_boiler-room::before {
+  position: absolute;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 103.19%;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  content: "Котельная";
+  top: -13px;
+}
+
+.main-panel_electricity {
+  width: 717px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 13px;
+}
+
+.main-panel_electricity_txt {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 121.69%;
+  letter-spacing: 0.025em;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  max-width: 148px;
+}
+
+.main-panel_electricity_column_wrap_output {
   width: 175px;
+}
+
+.main-panel_water {
+  width: 400px;
+  margin-right: 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-panel_water_anim {
+  margin-right: 27px;
+}
+
+.main-panel_water_txt {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 121.69%;
+  letter-spacing: 0.025em;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  max-width: 148px;
+}
+
+.main-panel_water_column_wrap_output {
+  width: 175px;
+}
+
+.main-panel_ibp {
+  width: 145px;
+  margin-right: 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-panel_ibp_txt {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 121.69%;
+  letter-spacing: 0.025em;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  max-width: 148px;
+}
+
+.main-panel_log {
+  width: 128px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 20px;
+}
+
+.main-panel_log_txt {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 121.69%;
+  letter-spacing: 0.025em;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  max-width: 148px;
 }
 
 .sub-txt {
@@ -305,7 +634,7 @@
   color: #000000;
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
   content: "Таймер №1";
-  top: -15px;
+  top: -13px;
   right: 10px;
 }
 
@@ -324,8 +653,64 @@
   color: #000000;
   text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
   content: "Таймер №2";
-  top: -15px;
+  top: -13px;
   right: 10px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1430px;
+  margin: 210px auto;
+  padding: 20px 165px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.footer_status {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 6px 15px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+  -webkit-box-shadow: inset -1px -2px 10px -1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -1px -2px 10px -1px rgba(0, 0, 0, 0.25);
+}
+
+.footer_status_txt {
+  margin: 0 5px 0 0;
+}
+
+.footer_status_dynamic-txt {
+  margin: 0 30px 0 0;
+}
+
+.footer_status_dynamic-txt:last-child {
+  margin: 0;
+}
+
+.footer_finish-btn {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
 }
 
 @font-face {
@@ -347,5 +732,9 @@
   src: url("../fonts/Roboto.woff2") format("woff2"), url("../fonts/Roboto.woff") format("woff"), url("../fonts/Roboto.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+body {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
