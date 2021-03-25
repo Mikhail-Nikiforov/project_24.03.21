@@ -1,0 +1,129 @@
+.main-panel {
+    width: 1430px;
+    margin: 0 auto;
+    &_pvu {
+        position: relative;
+        @include panel-style;
+        &:first-child::before {
+            content: "ПВУ1 (Зал)";
+            top: -11px;
+            @include top-txt;
+        }
+        &:nth-child(2)::before {
+            content: "ПВУ2 (Тех. помещения)";
+            top: -11px;
+            @include top-txt;
+        }
+        &_anim-box {
+            width: 54px;
+            height: 54px;
+            &_ventilation {    
+            }
+        }
+        &_txt {
+                font-family: 'roboto', Arial, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 21px;
+                line-height: 103.19%;
+                text-align: center;
+                color: #000000;
+                text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+        }
+        &_column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &_wrap{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &:first-child {
+                    margin: 0 0 5px;
+                }
+                &_label {
+                    align-self: start;
+                    min-width: 27px;
+                    margin: 0 9px 0 0;
+                    font-family: 'roboto', Arial, sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 21px;
+                    line-height: 103.19%;
+                    text-align: center;
+                    color: #000000;
+                    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+                }
+                &_output {
+                    display: flex;
+                    align-self: flex-end;
+                    justify-content: space-around;
+                    align-items: center;
+                    min-width: 70px;
+                    height: 23px;
+                    padding: 0 5px;
+                    background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+                    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25), inset 0px 2px 4px #626262;
+                    &_dinamic-txt {
+                        font-family: 'roboto', Arial, sans-serif;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14px;
+                        color: #000000;
+                        padding: 4px 0 0;
+                    }
+                    &_static-txt {
+                        font-family: 'roboto', Arial, sans-serif;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 22px;
+                        color: #000000;
+                        text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+                    }
+                }
+            }
+        }
+    }
+    &_pvu3 {
+        @include panel-style;
+        width: 400px;
+        position: relative;
+        &::before {
+            @include top-txt;
+            content: "ПВУЗ (ЦХМ)";
+            top: -11px;
+            
+        }
+        &_column {
+            width: 175px;
+        }
+    }
+}
+
+.sub-txt {
+    font-family: 'roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 103.19%;
+    color: #000000;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+.timer1 {
+    position: relative;
+    &::before {
+        @include top-txt;
+        content: "Таймер №1";
+        top: -15px;
+        right: 10px;
+    }
+}
+.timer2 {
+    position: relative;
+    &::before {
+        @include top-txt;
+        content: "Таймер №2";
+        top: -15px;
+        right: 10px;
+    }
+}
