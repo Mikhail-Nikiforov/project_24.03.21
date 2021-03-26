@@ -6,6 +6,7 @@
     &_wrap {
         position: relative;
         @include panel-style;
+        @include gradient-anim;
         &:first-child::before {
             content: "ПВУ1 (Зал)";
             top: -13px;
@@ -27,7 +28,6 @@
                 font-size: 21px;
                 line-height: 103.19%;
                 text-align: center;
-                color: #000000;
                 text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
         }
         &_column {
@@ -52,7 +52,6 @@
                     font-size: 21px;
                     line-height: 103.19%;
                     text-align: center;
-                    color: #000000;
                     text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
                 }
                 &_small-label {
@@ -62,7 +61,6 @@
                     font-size: 11px;
                     line-height: 103.19%;
                     letter-spacing: -0.005em;
-                    color: #000000;
                     text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
                     padding: 0 5px 0 0;
                 }
@@ -78,7 +76,6 @@
                         font-style: normal;
                         font-weight: 300;
                         font-size: 14px;
-                        color: #000000;
                         padding: 4px 0 0;
                         margin: 0 auto;
                     }
@@ -87,7 +84,6 @@
                         font-style: normal;
                         font-weight: normal;
                         font-size: 20px;
-                        color: #000000;
                         text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
                         padding: 0 5px 0 0;
                     }
@@ -155,7 +151,8 @@
         &::before {
             @include top-txt;
             content: "Завеса дебаркадер";
-            top: -13px;    
+            top: -13px; 
+            left: 10px;       
         }
         &_anim-box {
             width: 92px;
@@ -180,7 +177,7 @@
             @include top-txt;
             content: "Серверная";
             top: -13px;
-            left: 100px;    
+            left: 10px;    
         }
         &_column {
             align-items: center;
@@ -300,7 +297,7 @@
         width: 128px;
         box-sizing: border-box;
         flex-direction: column;
-        padding: 0 20px;
+        padding: 5px 20px 0;
         &_txt {
             font-family: 'roboto', Arial, sans-serif;
             font-style: normal;

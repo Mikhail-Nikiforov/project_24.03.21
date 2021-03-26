@@ -17,8 +17,14 @@
   padding: 0 18px 0 30px;
   margin: 0 0 20px;
   width: 100%;
+}
+
+@mixin gradient-anim {
   background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
   box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  &:hover {
+    background: linear-gradient(0deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;        
+  }
 }
 
 @import "_header.scss";
