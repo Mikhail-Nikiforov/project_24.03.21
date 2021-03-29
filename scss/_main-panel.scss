@@ -6,7 +6,7 @@
     &_wrap {
         position: relative;
         @include panel-style;
-        @include gradient-anim;
+        @include gradient-shadow;
         &:first-child::before {
             content: "ПВУ1 (Зал)";
             top: -13px;

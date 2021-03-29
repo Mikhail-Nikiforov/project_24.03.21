@@ -7,10 +7,12 @@
         justify-content: space-between;
         min-height: 510px;
         padding: 5px 20px;
-        margin: 0 270px 0 0;
         &_button {
             @include btn;
             @include gradient-anim;
+            &:hover {
+                background: linear-gradient(180deg, #FFFFFF 6.75%, #ffe6b8 100%), #C4C4C4;        
+            }
         }
     }
     &_counters {
@@ -28,7 +30,7 @@
             width: 900px;
             &_counter {
                 @include panel-style;
-                @include gradient-anim;
+                @include gradient-shadow;
                 flex-wrap: wrap;
                 height: unset;
                 margin: 0;
@@ -160,10 +162,8 @@
                 font-weight: normal;
                 font-size: 10px;
                 line-height: 103.19%;
-                margin: 15px 0 0;
-                &:nth-child(odd) {
-                    margin: 15px 10px 0 0;
-                }
+                margin: 15px 10px 0;
+                box-sizing: border-box;
             }
             &_input {
                 font-family: 'roboto', Arial, sans-serif;
@@ -177,7 +177,7 @@
             &_btn {
                 @include btn;
                 @include gradient-anim;
-                margin: 20px 25px 0;
+                margin: 25px 35px 0;
                 &:nth-child(2) {
                     margin: 0 auto;
                 }

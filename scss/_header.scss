@@ -1,13 +1,15 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 25px 18px 35px;
+    margin: 25px auto 35px;
+    min-width: 1430px;
     &_temperature {
         display: flex;
         justify-content: space-around;
         align-items: center;
         min-width: 175px;
         height: 58px;
+        margin: 0 0 0 20px;
         @include gradient-anim;
         &_label {
             width: 61px;
