@@ -234,8 +234,8 @@
   height: 23px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
   background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
-  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25), inset 0px 2px 4px #626262;
-          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25), inset 0px 2px 4px #626262;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25), inset 0px 4px 4px #626262;
+          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25), inset 0px 4px 4px #626262;
 }
 
 .main-panel_wrap_column_wrap_output_dynamic-txt {
@@ -715,6 +715,8 @@
   outline: none;
   border: none;
   cursor: pointer;
+  width: 150px;
+  height: 25px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
   background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
   -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
@@ -724,6 +726,453 @@
 .footer_finish-btn:hover {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
   background: linear-gradient(0deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+}
+
+.counters-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.counters-panel_navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 510px;
+  padding: 5px 20px;
+  margin: 0 270px 0 0;
+}
+
+.counters-panel_navigation_button {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.counters-panel_navigation_button:hover {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(0deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+}
+
+.counters-panel_counters_title {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 103.19%;
+  text-align: center;
+}
+
+.counters-panel_counters_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 900px;
+}
+
+.counters-panel_counters_wrap_counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 58px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 18px 0 30px;
+  margin: 0 0 20px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: unset;
+  margin: 0;
+  width: 210px;
+  justify-content: space-between;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.counters-panel_counters_wrap_counter:hover {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(0deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+}
+
+.counters-panel_counters_wrap_counter_title {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 103.19%;
+  text-align: center;
+  width: 100%;
+  margin: 6px 0 15px;
+}
+
+.counters-panel_counters_wrap_counter_pic {
+  margin: 0 0 0 15px;
+}
+
+.counters-panel_counters_wrap_counter_phases {
+  width: 100px;
+}
+
+.counters-panel_counters_wrap_counter_phases_phase {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 0 3px;
+  position: relative;
+}
+
+.counters-panel_counters_wrap_counter_phases_phase:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  right: -85px;
+  z-index: 1;
+  background: rgba(255, 255, 230, 0.9);
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  padding: 10px 10px;
+  border: 1px solid #333;
+}
+
+.counters-panel_counters_wrap_counter_phases_phase_label {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 103.19%;
+  padding: 0 3px 0 0;
+}
+
+.counters-panel_counters_wrap_counter_phases_phase_output {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 50px;
+  height: 16px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+  border-radius: 1px;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.counters-panel_counters_wrap_counter_phases-cosines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.counters-panel_counters_wrap_counter_sigmas {
+  width: 100%;
+}
+
+.counters-panel_counters_wrap_counter_sigmas_sigma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin: 0 0 3px;
+}
+
+.counters-panel_counters_wrap_counter_sigmas_sigma:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  right: -85px;
+  top: -10px;
+  z-index: 1;
+  background: rgba(255, 255, 230, 0.9);
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  padding: 10px 10px;
+  border: 1px solid #333;
+}
+
+.counters-panel_counters_wrap_counter_sigmas_sigma_label {
+  padding: 0 0 0 13px;
+}
+
+.counters-panel_counters_wrap_counter_sigmas_sigma_output {
+  width: 70px;
+}
+
+.counters-panel_report {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 25px 0 0;
+}
+
+.counters-panel_report_icon {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.counters-panel_report_title {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 103.19%;
+  text-align: center;
+  margin: 39px 0 30px;
+}
+
+.counters-panel_report_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 135px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 5px 0 0;
+}
+
+.counters-panel_report_form_label {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 103.19%;
+  margin: 15px 0 0;
+}
+
+.counters-panel_report_form_label:nth-child(odd) {
+  margin: 15px 10px 0 0;
+}
+
+.counters-panel_report_form_input {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 103.19%;
+  outline: none;
+  margin: 5px 0 0;
+}
+
+.counters-panel_report_form_btn {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 20px 25px 0;
+}
+
+.counters-panel_report_form_btn:hover {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(6.75%, #FFFFFF), to(#DADADA)), #C4C4C4;
+  background: linear-gradient(0deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
+}
+
+.counters-panel_report_form_btn:nth-child(2) {
+  margin: 0 auto;
+}
+
+.chart {
+  margin: 17px 0 0;
+  padding: 0 5px;
+  height: 415px;
+}
+
+.chart_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.chart_top_left-btns-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 18px 0 0;
+}
+
+.chart_top_left-btns-wrap_btn {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 25px;
+  width: 15px;
+  height: 15px;
+  background: no-repeat;
+  margin: 0 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chart_top_left-btns-wrap_btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.chart_top_left-btns-wrap_btn:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.chart_top_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chart_top_form_label {
+  margin: 0;
+}
+
+.chart_top_form_label:nth-child(odd) {
+  margin: 0 10px 0 0;
+}
+
+.chart_top_status {
+  margin: 13px 0 0;
+}
+
+.chart_top_finish-btn {
+  margin: 13px 0 0;
+}
+
+.chart_top_right-btns-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 18px 0 0;
+}
+
+.chart_top_right-btns-wrap_btn {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 25px;
+  width: 15px;
+  height: 15px;
+  background: no-repeat;
+  margin: 0 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chart_top_right-btns-wrap_btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.chart_top_right-btns-wrap_btn:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @font-face {

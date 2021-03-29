@@ -25,13 +25,7 @@
         }
     }
     &_finish-btn {
-        font-family: 'roboto', Arial, sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        outline: none;
-        border: none;
-        cursor: pointer;
+        @include btn;
         @include gradient-anim;
     }
 }

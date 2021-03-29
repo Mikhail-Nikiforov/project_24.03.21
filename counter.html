@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Счетчики</title>
+</head>
+
+<body>
+    <div class="counters-panel">
+        <div class="counters-panel_navigation">
+            <button class="counters-panel_navigation_button">Главная</button>
+            <button class="counters-panel_navigation_button">ПВУ1</button>
+            <button class="counters-panel_navigation_button">ПВУ2</button>
+            <button class="counters-panel_navigation_button">ПВУ3</button>
+            <button class="counters-panel_navigation_button">Вытяжки</button>
+            <button class="counters-panel_navigation_button">Завеса дебар</button>
+            <button class="counters-panel_navigation_button">Вулканы</button>
+            <button class="counters-panel_navigation_button">Серверная</button>
+            <button class="counters-panel_navigation_button">Кон. зал</button>
+            <button class="counters-panel_navigation_button">ИТП</button>
+            <button class="counters-panel_navigation_button">Счетчики Э</button>
+            <button class="counters-panel_navigation_button">Счетчики В</button>
+            <button class="counters-panel_navigation_button">ИБП</button>
+            <button class="counters-panel_navigation_button">Журналы</button>
+            <button class="counters-panel_navigation_button">План</button>
+        </div>
+        <div class="counters-panel_counters">
+            <h1 class="counters-panel_counters_title">Счетчики</h1>
+            <div class="counters-panel_counters_wrap">
+                <div class="counters-panel_counters_wrap_counter">
+                    <h2 class="counters-panel_counters_wrap_counter_title">РП1</h2>
+                    <img src="img/counter_pic.png" alt="Счетчик" width="80" height="120" class="counters-panel_counters_wrap_counter_pic">
+                    <div class="counters-panel_counters_wrap_counter_phases">
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Частота:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">50.00</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">Hz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counters-panel_counters_wrap_counter_phases-cosines">
+                        <div class="counters-panel_counters_wrap_counter_phases">
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза Σ:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases counters-panel_counters_wrap_counter_phases-cosines_cosines">
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ А:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ B:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ C:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ Σ:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counters-panel_counters_wrap_counter_sigmas">
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за все время</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за все время</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="counters-panel_counters_wrap_counter">
+                    <h2 class="counters-panel_counters_wrap_counter_title">ВП1</h2>
+                    <img src="img/counter_pic.png" alt="Счетчик" width="80" height="120" class="counters-panel_counters_wrap_counter_pic">
+                    <div class="counters-panel_counters_wrap_counter_phases">
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Частота:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">50.00</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">Hz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counters-panel_counters_wrap_counter_phases-cosines">
+                        <div class="counters-panel_counters_wrap_counter_phases">
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза Σ:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases counters-panel_counters_wrap_counter_phases-cosines_cosines">
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ А:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ B:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ C:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ Σ:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counters-panel_counters_wrap_counter_sigmas">
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за все время</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за все время</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="counters-panel_counters_wrap_counter">
+                    <h2 class="counters-panel_counters_wrap_counter_title">РП2</h2>
+                    <img src="img/counter_pic.png" alt="Счетчик" width="80" height="120" class="counters-panel_counters_wrap_counter_pic">
+                    <div class="counters-panel_counters_wrap_counter_phases">
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Частота:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">50.00</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">Hz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counters-panel_counters_wrap_counter_phases-cosines">
+                        <div class="counters-panel_counters_wrap_counter_phases">
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза Σ:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases counters-panel_counters_wrap_counter_phases-cosines_cosines">
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ А:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ B:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ C:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ Σ:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counters-panel_counters_wrap_counter_sigmas">
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за все время</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за все время</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="counters-panel_counters_wrap_counter">
+                    <h2 class="counters-panel_counters_wrap_counter_title">ВП2</h2>
+                    <img src="img/counter_pic.png" alt="Счетчик" width="80" height="120" class="counters-panel_counters_wrap_counter_pic">
+                    <div class="counters-panel_counters_wrap_counter_phases">
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">228.65</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">V</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">64.03</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">A</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label">Частота:</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">50.00</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">Hz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counters-panel_counters_wrap_counter_phases-cosines">
+                        <div class="counters-panel_counters_wrap_counter_phases">
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза А:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза B:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза C:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Фаза Σ:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">14.6</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_phases counters-panel_counters_wrap_counter_phases-cosines_cosines">
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ А:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ B:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ C:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase counters-panel_counters_wrap_counter_phases-cosines_cosines_cosine" data-tooltip="Ток Фаза А">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_label">Cos φ Σ:</span>
+                                <div class="counters-panel_counters_wrap_counter_phases_phase_output">
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">11.00</span>
+                                    <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">&percnt;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counters-panel_counters_wrap_counter_sigmas">
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. день</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. месяц</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за пред. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за пред. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за тек. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за тек. год</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ а Э. за все время</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                        <div class="counters-panel_counters_wrap_counter_sigmas_sigma" data-tooltip="Ток Фаза А">
+                            <span class="counters-panel_counters_wrap_counter_phases_phase_label counters-panel_counters_wrap_counter_sigmas_sigma_label">Σ p Э. за все время</span>
+                            <div class="counters-panel_counters_wrap_counter_phases_phase_output counters-panel_counters_wrap_counter_sigmas_sigma_output">
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_dynamic-txt">335.54</span>
+                                <span class="counters-panel_counters_wrap_counter_phases_phase_output_static-txt">kW</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="counters-panel_report">
+            <img src="img/header_icon.png" class="counters-panel_report_icon" width="82" height="82" alt="Logo">
+            <h1 class="counters-panel_report_title">Формирование отчета</h1>
+            <form action="#" class="counters-panel_report_form">
+                <label for="report-start-date" class="counters-panel_report_form_label">Начальная точка<input type="date" class="counters-panel_report_form_input" id="report-start-date"></label>
+                <label for="report-end-date" class="counters-panel_report_form_label">Конечная точка<input type="date" class="counters-panel_report_form_input" id="report-end-date"></label>
+                <label for="report-interval-date" class="counters-panel_report_form_label">Интервал времени<input type="date" class="counters-panel_report_form_input" id="report-interval-date"></label>
+                <button type="submit" class="counters-panel_report_form_btn">Сформирвоать отчет</button>
+                <button type="submit" class="counters-panel_report_form_btn">Открыть отчет</button>
+            </form>
+        </div>
+    </div>
+    <div class="chart">
+        <div class="chart_top">
+            <div class="chart_top_left-btns-wrap">
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/pause.svg" alt="Pause icon" class="chart_top_left-btns-wrap_btn_pause" width="15" height="15">
+                </button>
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/list-light.svg" alt="List icon" class="chart_top_left-btns-wrap_btn_list-light">
+                </button>
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/upload.svg" alt="Upload icon" class="chart_top_left-btns-wrap_btn_upload">
+                </button>
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/fast-forward-left.svg" alt="Fast forward icon" class="chart_top_left-btns-wrap_btn_fast-forward-left">
+                </button>
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/prev.svg" alt="Prev icon" class="chart_top_left-btns-wrap_btn_prev">
+                </button>
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/next.svg" alt="Next icon" class="chart_top_left-btns-wrap_btn_next">
+                </button>
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/fast-forward-right.svg" alt="Fast forward icon" class="chart_top_left-btns-wrap_btn_fast-forward-right">
+                </button>
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/graph-on.svg" alt="Graph icon" class="chart_top_left-btns-wrap_btn_graph-on" width="16" height="16">
+                </button>
+                <button class="chart_top_left-btns-wrap_btn">
+                    <img src="img/chart_icons/graph-off.svg" alt="Graph icon" class="chart_top_left-btns-wrap_btn_graph-off" width="16" height="16">
+                </button>
+            </div>
+            <form action="#" class="chart_top_form">
+                <label for="chart-end-date" class="counters-panel_report_form_label chart_top_form_label">Конечная точка<input type="date" class="counters-panel_report_form_input" id="chart-end-date"></label>
+                <label for="chart-interval-date" class="counters-panel_report_form_label chart_top_form_label">Интервал времени<input type="date" class="counters-panel_report_form_input" id="chart-interval-date"></label>
+            </form>
+            <div class="footer_status chart_top_status">
+                <span class="footer_status_txt">Вы вошли как:</span>
+                <span class="footer_status_dynamic-txt">Антон</span>
+                <span class="footer_status_txt">Группа:</span>
+                <span class="footer_status_dynamic-txt">Администратор</span>
+            </div>
+            <button class="footer_finish-btn chart_top_finish-btn">Завершение сессии</button>
+            <div class="chart_top_right-btns-wrap">
+                <button class="chart_top_right-btns-wrap_btn">
+                    <img src="img/chart_icons/list-dark.svg" alt="List icon" class="chart_top_right-btns-wrap_btn_pause" width="15" height="15">
+                </button>
+                <button class="chart_top_right-btns-wrap_btn">
+                    <img src="img/chart_icons/print.svg" alt="List icon" class="chart_top_right-btns-wrap_btn_pause" width="15" height="15">
+                </button>
+                <button class="chart_top_right-btns-wrap_btn">
+                    <img src="img/chart_icons/camera.svg" alt="List icon" class="chart_top_right-btns-wrap_btn_pause" width="15" height="15">
+                </button>
+                <button class="chart_top_right-btns-wrap_btn">
+                    <img src="img/chart_icons/recycle.svg" alt="List icon" class="chart_top_right-btns-wrap_btn_pause" width="15" height="15">
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

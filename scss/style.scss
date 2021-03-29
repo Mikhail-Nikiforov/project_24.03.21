@@ -18,7 +18,17 @@
   margin: 0 0 20px;
   width: 100%;
 }
-
+@mixin btn {
+  font-family: 'roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 25px;
+}
 @mixin gradient-anim {
   background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
   box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
@@ -31,6 +41,8 @@
 @import "_main-panel.scss";
 @import "_footer.scss";
 
+@import "_counters.scss";
+@import "_chart.scss";
 
 
 // шрифты без авторких прав
