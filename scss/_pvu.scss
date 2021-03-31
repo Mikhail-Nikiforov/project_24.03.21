@@ -2,6 +2,7 @@
     &_schema {
         display: flex;
         flex-direction: column;
+        zoom: 72%;
         &_title {
             max-width: 470px;
             margin: 10px auto;
@@ -429,6 +430,7 @@
                         font-weight: normal;
                         font-size: 11px;
                         line-height: 103.19%;
+                        margin: 0 0 3px;
                     }
                 }
             }
@@ -476,6 +478,7 @@
         flex-direction: column;
         min-width: 650px;
         padding: 0 10px 0 0;
+        zoom: 75%;
         &_title {
             text-align: center;
             padding: 0 82px;

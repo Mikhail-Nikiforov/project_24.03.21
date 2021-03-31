@@ -4,12 +4,12 @@
     &_navigation {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         min-height: 510px;
         padding: 5px 20px;
         &_button {
             @include btn;
             @include gradient-anim;
+            margin: 0 0 20px;
             &:hover {
                 background: linear-gradient(180deg, #FFFFFF 6.75%, #ffe6b8 100%), #C4C4C4;        
             }

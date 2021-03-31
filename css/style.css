@@ -758,9 +758,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   min-height: 510px;
   padding: 5px 20px;
 }
@@ -779,6 +776,7 @@
   background: linear-gradient(180deg, #FFFFFF 6.75%, #DADADA 100%), #C4C4C4;
   -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  margin: 0 0 20px;
 }
 
 .counters-panel_navigation_button:hover {
@@ -1214,6 +1212,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  zoom: 72%;
 }
 
 .pvu_schema_title {
@@ -1699,6 +1698,7 @@
   font-weight: normal;
   font-size: 11px;
   line-height: 103.19%;
+  margin: 0 0 3px;
 }
 
 .pvu_schema_main-pic_info-right {
@@ -1769,6 +1769,7 @@
           flex-direction: column;
   min-width: 650px;
   padding: 0 10px 0 0;
+  zoom: 75%;
 }
 
 .pvu_ustavki_title {
