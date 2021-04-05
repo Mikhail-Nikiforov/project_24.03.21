@@ -455,8 +455,15 @@
                     &_wrap {
                         justify-content: space-between;
                         width: 130px;
+                        &_txt {
+                            min-width: 27px;
+                            font-family: 'roboto', Arial, sans-serif;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                        }
                         &_output {
-                            width: 60px;
+                            width: 55px;
                         }
                     }
                     &_timer {
