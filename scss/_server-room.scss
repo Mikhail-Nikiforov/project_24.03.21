@@ -180,9 +180,7 @@
         }
         &_bottom {
             display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            width: 750px;
+            justify-content: center;
             &_back-btn {
                 @include btn;
                 @include gradient-anim;

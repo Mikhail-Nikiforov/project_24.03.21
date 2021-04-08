@@ -315,9 +315,8 @@
         }
         &_bottom {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            width: 560px;
             &_back-btn {
                 @include btn;
                 @include gradient-anim;

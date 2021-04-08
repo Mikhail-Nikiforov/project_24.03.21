@@ -125,9 +125,7 @@
         }
         &_bottom {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 560px;
+            justify-content: center;
             margin: 20px 0 0;
             &_back-btn {
                 @include btn;
