@@ -143,7 +143,7 @@
 }
 
 .main-panel_wrap:nth-child(2)::before {
-  content: "ПВУ2 (Тех. помещения)";
+  content: "ПВУ2";
   top: -13px;
   position: absolute;
   font-family: 'roboto', Arial, sans-serif;
@@ -1417,8 +1417,8 @@
 }
 
 .pvu_schema_main-pic_df3 {
-  background: url("../img/pvu_schema/element9/df_alarm.png");
-  left: 703px;
+  background: url("../img/pvu_schema/element1/df_alarm.png");
+  left: 694px;
   top: 144px;
   position: absolute;
   width: 72px;
@@ -1428,8 +1428,8 @@
 }
 
 .pvu_schema_main-pic_df4 {
-  background: url("../img/pvu_schema/element9/df.png");
-  left: 703px;
+  background: url("../img/pvu_schema/element1/df.png");
+  left: 694px;
   top: 144px;
   position: absolute;
   width: 72px;
@@ -2650,9 +2650,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 650px;
   margin: 0 5px 0 10px;
   -ms-flex-wrap: nowrap;
@@ -2692,6 +2692,7 @@
           justify-content: flex-start;
   padding: 10px 0 20px;
   width: 150px;
+  margin: 0 50px 0 0;
 }
 
 .itp_ustavki_panel_ust-with-timer:hover {
@@ -4475,9 +4476,8 @@
   zoom: 65%;
   width: 640px;
   height: 380px;
-  margin: 0 auto;
   z-index: 0;
-  margin: 0;
+  margin: 0 20px;
 }
 
 .rangehood_schema_main-pic_jaluzi-run1 {
